@@ -1,0 +1,3 @@
+Olá mundo...
+
+Iniciando o curso de Git e Github e utilizando os comandos básicos para realizar o versionamento de arquivos.
