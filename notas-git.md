@@ -99,6 +99,9 @@ Seleciona o branch
 git branch -D "nome_do_branch"
 Deleta um branch
 
+git checkout -- .
+Recupera os arquivos do repositório até o último commit realizado
+
 =============================================================
 
 git merge "nome_do_branch"
