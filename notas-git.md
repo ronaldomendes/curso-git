@@ -73,6 +73,7 @@ git reset HEAD "nomeArquivo"
 Retorna status do arquivo inserido no "git add"
 
 git reset "(--soft, --mixed  ou --hard)" "códigoHash"
+Retorna o status de um commit, para facilitar a pesquisa pelo commit, use o comando git log --oneline
 
 =============================================================
 
