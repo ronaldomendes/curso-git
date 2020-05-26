@@ -130,3 +130,27 @@ Mostra o nome do usuário que alterou um arquivo
 git blame -w -e nome-do-arquivo
 (-w) Ignora os espaços em branco
 (-e) Ao invés de mostrar o nome, mostra o e-mail
+
+
+=============================================================
+
+git remote set-url origin http://meu-novo-endereco/meu-projeto.git
+Altera o endereço do repositório remoto
+
+git remote -v
+Verifica o endereço do seu repositório atual
+
+git remote rm origin
+Remove o repositório atual
+
+=============================================================
+
+O erro fatal: refusing to merge unrelated histories geralmente acontece quando você tenta fazer o git pull de um repositório remoto, mas o seu repositório local possuí um histórico de commits, branches, etc, diferente do que está no repositório remoto.
+
+Para permitir que o Git faça o merge de dois projetos com históricos diferentes, é só passar o parâmetro --allow-unrelated-histories quando for fazer o pull, assim:
+
+git pull origin master --allow-unrelated-histories
+
+(lembre-se de trocar os nomes do remote e branch para os que você utiliza)
+
+Fonte: https://community.umbler.com/br/t/resolvendo-o-erro-fatal-refusing-to-merge-unrelated-histories-no-git/657
