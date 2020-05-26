@@ -121,3 +121,12 @@ Lista os arquivos salvos pelo stash
 
 git stash clear
 Limpa a lista de arquivos salvos
+
+=============================================================
+
+git blame nome-do-arquivo
+Mostra o nome do usuário que alterou um arquivo
+
+git blame -w -e nome-do-arquivo
+(-w) Ignora os espaços em branco
+(-e) Ao invés de mostrar o nome, mostra o e-mail
