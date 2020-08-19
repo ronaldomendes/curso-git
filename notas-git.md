@@ -154,3 +154,8 @@ git pull origin master --allow-unrelated-histories
 (lembre-se de trocar os nomes do remote e branch para os que você utiliza)
 
 Fonte: https://community.umbler.com/br/t/resolvendo-o-erro-fatal-refusing-to-merge-unrelated-histories-no-git/657
+
+=============================================================
+
+git commit --amend
+Permite revisar o texto do último commit local
